@@ -12,7 +12,7 @@ int main()
     const int kMinToSec = 60;
     const int kDayToHour = 24;
 
-    int time_sec, time_min, time_hour, time_day;
+    long long time_sec, time_min, time_hour, time_day;
 
     cout << "Enter the number of seconds: ";
     cin >> time_sec;
