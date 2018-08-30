@@ -1,7 +1,7 @@
 // insrt2_string.cpp
 
 #include <iostream>
-#include <cstring>
+#include <string>
 
 int main()
 {
