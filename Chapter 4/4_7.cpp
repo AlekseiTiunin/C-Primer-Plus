@@ -19,13 +19,13 @@ int main()
 
     Pizza tasty_pizza;
 
-    cout << "Enter name of pizza: ";
+    cout << "Enter name of company: ";
     cin.getline(tasty_pizza.name, kNameSize);
     cout << "Enter diameter of pizza: ";
     (cin >> tasty_pizza.diameter).get();
     cout << "Enter weight of pizza: ";
     cin >> tasty_pizza.weight;
-    cout << endl << "Name of pizza: " << tasty_pizza.name << endl;
+    cout << endl << "Name of company: " << tasty_pizza.name << endl;
     cout << "Diameter of pizza: " << tasty_pizza.diameter << endl;
     cout << "Weight of pizza: " << tasty_pizza.weight << endl;
 
