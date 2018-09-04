@@ -12,10 +12,6 @@ struct bop
 };
 
 void showmenu();
-void display_name(bop *, int);
-void display_title(bop *, int);
-void display_bopname(bop *, int);
-void display_pref(bop *, int);
 
 int main()
 {
