@@ -1,4 +1,4 @@
-// charcount.cpp
+// alpcount.cpp
 #include <iostream>
 #include <string>
 #include <cstring>
