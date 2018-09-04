@@ -1,4 +1,4 @@
-// patrons.cpp
+// symbolcount.cpp
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
