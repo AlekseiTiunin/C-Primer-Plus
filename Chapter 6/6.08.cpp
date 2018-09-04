@@ -36,9 +36,9 @@ int main()
         cout << "No data read.";
     else
         cout << "Number of symbols = " << nSymbols << endl;
-
+    inFile.close();
     cout << "End of programm." << endl;
-
+    
     return 0;
 }
 
