@@ -16,6 +16,7 @@ List::~List()
 		temp = head->next;
 	}	
 	delete head;
+	head = nullptr;
 }
 
 bool List::Add(Item item)
