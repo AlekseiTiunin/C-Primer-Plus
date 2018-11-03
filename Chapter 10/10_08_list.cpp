@@ -9,14 +9,12 @@ List::List()
 List::~List()
 {
 	Node * temp = head->next;
-	while (temp != nullptr)
+	while (head != nullptr)
 	{
-		delete head;
-		head = temp;
 		temp = head->next;
+		delete head;
+		head = temp;		
 	}	
-	delete head;
-	head = nullptr;
 }
 
 bool List::Add(Item item)
